@@ -1,0 +1,83 @@
+﻿@model Elliso.Domain.EllisoModel
+    <div class="login-layout" style="background-color:#FFFFFF">
+    
+		<div class="container-fluid" id="main-container">
+			<div id="main-content">
+				<div class="row-fluid">
+					<div class="span12">			
+						<div class="login-container">
+						<div class="row-fluid">
+							<div class="center">
+								<h1><i class="icon-paste green"></i><span class="red">Elliso Input</span></h1>
+							</div>
+						</div>
+						<div class="space-6"></div>
+						<div class="row-fluid">
+							<div class="position-relative">
+								<div id="login-box" class="visible widget-box no-border">
+									<div class="widget-body">
+									 <div class="widget-main">
+										<h4 class="header lighter bigger"><i class="icon-pencil"></i> Please Enter Your Information</h4>
+										
+										<div class="space-6"></div>
+										
+                                            @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                                            {
+                                             @Html.AntiForgeryToken()   
+											 <fieldset>
+                                                <table>
+                                                    <tr>
+                                                        <td>
+                                                            帳號
+                                                        </td>
+                                                        <td>
+                                                            @Html.TextBoxFor(m => m.EmployeeName, new { @class = "span12", @placeholder = "Username" })
+                                                        </td>
+                                                        <td>
+                                                            帳號
+                                                        </td>
+                                                        <td>
+                                                            @Html.TextBoxFor(m => m.EmployeeName, new { @class = "span12", @placeholder = "Username" })
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                         <td>
+                                                             密碼
+                                                         </td>
+                                                         <td>
+                                                             @Html.TextBoxFor(m => m.EmployeeName, new { @class = "span12", @placeholder = "Username" })
+                                                         </td>
+                                                    </tr>
+                                                </table>
+												<div class="space"></div>
+												<div id="submit" class="row-fluid">
+													<input type="submit" id="button" value="Submit" class="span4 btn btn-small btn-primary" id="submit1">
+												</div>
+                                                <input type="hidden" name="src" value="@ViewBag.src"> 
+											  </fieldset>
+                                            }
+									 </div><!--/widget-main-->
+                                    <div id="wrapperbottom"></div>
+                                        @if ((!Html.ViewData.ModelState.IsValid))
+                                        {
+                                             <div class="alert alert-danger alert-dismissable">
+                                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                                    <strong><span class="glyphicon glyphicon-remove"></span> Error: </strong>
+                                                    @Html.ValidationSummary(true)
+                                            </div>  
+                                        }
+                                    </div>									
+									
+									 <div class="toolbar clearfix">
+										<div>	
+										</div>
+									 </div>
+									</div><!--/widget-body-->
+								</div><!--/login-box-->
+							</div><!--/position-relative-->
+						</div>
+						</div>
+					</div><!--/span-->
+				</div><!--/row-->
+			</div>
+		</div><!--/.fluid-container-->
