@@ -1,0 +1,254 @@
+八月 21, 2015 1:26:29 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:26:29 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:26:29 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@2dc82f')
+八月 21, 2015 1:27:01 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:27:01 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:36:53 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:36:53 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:36:53 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@1bf71f8')
+八月 21, 2015 1:37:33 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:37:33 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:37:50 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:37:50 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:37:50 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6f4c83')
+八月 21, 2015 1:38:49 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:38:49 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:39:12 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:39:12 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:39:12 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6f4c83')
+八月 21, 2015 1:40:01 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:40:01 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:40:28 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:40:28 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:40:28 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6f4c83')
+八月 21, 2015 1:42:57 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:42:57 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:43:22 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:43:22 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:43:22 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@bd480d')
+八月 21, 2015 1:44:40 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:44:40 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:45:03 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:45:03 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:45:03 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@6f4c83')
+八月 21, 2015 1:45:38 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 1:45:38 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 1:45:52 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 1:45:52 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 1:45:52 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@bd480d')
+八月 21, 2015 2:37:17 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 2:37:17 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 2:41:00 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 2:41:00 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 2:41:00 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@bd480d')
+八月 21, 2015 2:47:33 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 2:47:33 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 2:48:15 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 2:48:15 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 2:48:15 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@bd480d')
+八月 21, 2015 2:52:16 上午 org.apache.catalina.core.StandardWrapperValve invoke
+嚴重: Servlet.service() for servlet [jsp] in context with path [/CSPSWeb] threw exception [An exception occurred processing JSP page /main/login.jsp at line 48
+
+45: 
+46:         if(locale == null) {
+47:             if(language == null){
+48:             	language = BussConst.DEFAULT_LANGUAGE;
+49:             }
+50:             String[] tl = language.split("_");
+51:             locale = new java.util.Locale(tl[0],tl[1]);
+
+
+Stacktrace:] with root cause
+java.lang.RuntimeException: Query(getSysMAllData) Exception 
+	at vteam.csps.query.ParmForeQuery.getSysMAllData(ParmForeQuery.java:8886)
+	at vteam.csps.common.BussOper.getAllSystemParm(BussOper.java:270)
+	at vteam.csps.common.BussOper.getSystemParm(BussOper.java:255)
+	at vteam.csps.common.BussConst.<clinit>(BussConst.java:37)
+	at org.apache.jsp.main.login_jsp._jspService(login_jsp.java:121)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1852)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+八月 21, 2015 2:56:29 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 2:56:29 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 2:57:55 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 2:57:55 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 2:57:55 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@835940')
+八月 21, 2015 2:59:38 上午 org.apache.catalina.core.StandardWrapperValve invoke
+嚴重: Servlet.service() for servlet [jsp] in context with path [/CSPSWeb] threw exception [javax.servlet.ServletException: java.lang.ExceptionInInitializerError] with root cause
+java.lang.RuntimeException: Query(getSysMAllData) Exception 
+	at vteam.csps.query.ParmForeQuery.getSysMAllData(ParmForeQuery.java:8886)
+	at vteam.csps.common.BussOper.getAllSystemParm(BussOper.java:270)
+	at vteam.csps.common.BussOper.getSystemParm(BussOper.java:255)
+	at vteam.csps.common.BussConst.<clinit>(BussConst.java:37)
+	at org.apache.jsp.main.login_jsp._jspService(login_jsp.java:121)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1852)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+八月 21, 2015 3:00:31 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 3:00:31 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 9:01:38 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 9:01:38 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 9:01:38 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@fc6ccb')
+八月 21, 2015 9:02:19 上午 org.apache.catalina.core.StandardWrapperValve invoke
+嚴重: Servlet.service() for servlet [jsp] in context with path [/CSPSWeb] threw exception [javax.servlet.ServletException: java.lang.ExceptionInInitializerError] with root cause
+java.lang.RuntimeException: Query(getSysMAllData) Exception 
+	at vteam.csps.query.ParmForeQuery.getSysMAllData(ParmForeQuery.java:8886)
+	at vteam.csps.common.BussOper.getAllSystemParm(BussOper.java:270)
+	at vteam.csps.common.BussOper.getSystemParm(BussOper.java:255)
+	at vteam.csps.common.BussConst.<clinit>(BussConst.java:37)
+	at org.apache.jsp.main.login_jsp._jspService(login_jsp.java:121)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.AprEndpoint$SocketProcessor.run(AprEndpoint.java:1852)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+八月 21, 2015 10:40:50 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 10:40:50 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 10:42:21 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 10:42:21 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 10:42:21 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@8ca2c3')
+八月 21, 2015 10:45:19 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 10:45:19 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 10:46:55 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 10:46:55 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 10:46:55 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@e8df9c')
+八月 21, 2015 10:47:05 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 10:47:05 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
+八月 21, 2015 10:51:25 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextInitialized()
+八月 21, 2015 10:51:25 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextInitialized()
+八月 21, 2015 10:51:25 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@11591df')
+八月 21, 2015 10:51:25 上午 org.apache.catalina.core.ApplicationContext log
+資訊: SessionListener: contextDestroyed()
+八月 21, 2015 10:51:25 上午 org.apache.catalina.core.ApplicationContext log
+資訊: ContextListener: contextDestroyed()
