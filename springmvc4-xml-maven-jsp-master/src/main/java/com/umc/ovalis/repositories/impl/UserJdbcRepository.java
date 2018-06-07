@@ -16,25 +16,37 @@ import java.util.List;
 @Repository
 public class UserJdbcRepository implements UserRepository {
 
-	private final JdbcTemplate jdbcTemplate;
-
-	@Autowired
-	public UserJdbcRepository(JdbcTemplate jdbcTemplate) {
-		this.jdbcTemplate = jdbcTemplate;
-	}
-
 	@Override
 	public void create(User user) {
-		String sql = "INSERT INTO users " + "(id, username) VALUES (seq_users_id.nextval, ?)";
-
-		jdbcTemplate.update(sql, new Object[] { user.getUsername() });
+		// TODO Auto-generated method stub
+		
 	}
 
 	@Override
 	public List<User> getAll() {
-		String sql = "SELECT * FROM users";
-
-		return jdbcTemplate.query(sql,
-				(resultSet, rowNum) -> new User(resultSet.getLong("id"), resultSet.getString("username")));
+		// TODO Auto-generated method stub
+		return null;
 	}
+
+//	private final JdbcTemplate jdbcTemplate;
+//
+//	@Autowired
+//	public UserJdbcRepository(JdbcTemplate jdbcTemplate) {
+//		this.jdbcTemplate = jdbcTemplate;
+//	}
+//
+//	@Override
+//	public void create(User user) {
+//		String sql = "INSERT INTO users " + "(id, username) VALUES (seq_users_id.nextval, ?)";
+//
+//		jdbcTemplate.update(sql, new Object[] { user.getUsername() });
+//	}
+//
+//	@Override
+//	public List<User> getAll() {
+//		String sql = "SELECT * FROM users";
+//
+//		return jdbcTemplate.query(sql,
+//				(resultSet, rowNum) -> new User(resultSet.getLong("id"), resultSet.getString("username")));
+//	}
 }

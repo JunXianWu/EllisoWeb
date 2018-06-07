@@ -19,7 +19,7 @@
 <body>
 <div class="container">
 
-    <h2>Hello ${name}!</h2>
+    <h2>Hello ${name.username}!</h2>
 
 </div>
 <!-- /container -->

@@ -15,9 +15,23 @@
         <springjdbc.version>2.0.6</springjdbc.version>
         <logback.version>1.1.8</logback.version>
         <ojdbc.version>12.1.0.2</ojdbc.version>
+        <jackson.version>1.9.10</jackson.version>
     </properties>
 
     <dependencies>
+		<!-- Jackson JSON Mapper -->
+		<dependency>
+		<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>com.fasterxml.jackson.core</groupId>
+		    <artifactId>jackson-databind</artifactId>
+		    <version>2.5.3</version>
+		</dependency>		
+    
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-web</artifactId>
