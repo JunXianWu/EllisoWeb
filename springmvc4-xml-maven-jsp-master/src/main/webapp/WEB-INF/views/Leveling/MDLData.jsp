@@ -22,6 +22,7 @@
     <h2>Hello ${name.username}!</h2>
 
 </div>
+<label><img type="image" src="/code" id="codeImage"  style="cursor:pointer;"/></label>  
 <!-- /container -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="${contextPath}/resources/js/bootstrap.min.js"></script>
