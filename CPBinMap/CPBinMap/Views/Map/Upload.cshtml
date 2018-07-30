@@ -1,0 +1,66 @@
+@model CPBinMap.Models.BinMapModel
+@using (Html.BeginForm("Upload", "Map", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="container-login100">
+        <div class="login100-more">
+            <span class="login100-form-title p-b-59">
+                Upload
+            </span>
+            <div class="wrap-input100">
+                <label for="file" class="label-input100">Filename</label>
+                <input type="file" name="file" id="file" class = "input100" style="width:180px"/>
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100">
+                @Html.LabelFor(x => x.Param1, new { @class = "label-input100" })
+                @Html.TextBoxFor(x => x.Param1, new { @class = "input100", @placeholder = "param1" })
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100">
+                @Html.LabelFor(x => x.Param2, new { @class = "label-input100" })
+                @Html.TextBoxFor(x => x.Param2, new { @class = "input100", @placeholder = "param2" })
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100">
+                @Html.LabelFor(x => x.Param3, new { @class = "label-input100" })
+                @Html.TextBoxFor(x => x.Param3, new { @class = "input100", @placeholder = "param3" })
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100">
+                @Html.LabelFor(x => x.Param4, new { @class = "label-input100" })
+                @Html.TextBoxFor(x => x.Param4, new { @class = "input100", @placeholder = "param4" })
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="wrap-input100">
+                @Html.LabelFor(x => x.Param5, new { @class = "label-input100" })
+                @Html.TextBoxFor(x => x.Param5, new { @class = "input100", @placeholder = "param5" })
+                <span class="focus-input100"></span>
+            </div>
+
+            <div class="container-login100-form-btn">
+                <div class="wrap-login100-form-btn">
+                    <div class="login100-form-bgbtn"></div>
+                    <button class="login100-form-btn">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+        @{
+            var imgPath = "";
+            if (Model != null && Model.ImagePath!=null)
+            {
+                imgPath = Url.Content(Model.ImagePath);
+            }
+        }
+        <div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+            <form class="login100-form validate-form">
+                <img src="@imgPath">
+            </form>
+        </div>
+    </div>
+}

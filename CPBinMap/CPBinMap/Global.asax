@@ -1,0 +1,1 @@
+<%@ Application Codebehind="Global.asax.cs" Inherits="CPBinMap.MvcApplication" Language="C#" %>

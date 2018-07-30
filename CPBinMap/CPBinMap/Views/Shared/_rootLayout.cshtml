@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0" />
+    <title>@ViewBag.Title</title>
+
+    
+    @Html.DevExpress().GetStyleSheets(
+        new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor }
+    )
+    @Html.DevExpress().GetScripts( 
+        new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new Script { ExtensionSuite = ExtensionSuite.HtmlEditor }
+    )
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/main.css")" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    @Html.DevExpress().Panel(settings => {
+        settings.Name = "HeaderPane";
+        settings.FixedPosition = PanelFixedPosition.WindowTop;
+        settings.Collapsible = true;
+        settings.SettingsAdaptivity.CollapseAtWindowInnerWidth = 500;
+        settings.ControlStyle.CssClass = "headerPane";
+        settings.Styles.Panel.CssClass = "panel";
+        settings.Styles.ExpandedPanel.CssClass = "expandedPanel";
+        settings.Styles.ExpandBar.CssClass = "bar";
+        settings.SetContent(() => {
+            Html.RenderPartial("HeaderPartialView");
+        });
+    }).GetHtml()
+
+    <script type="text/javascript">
+        function updateHeaderMenuOrientation(){
+            if(!window.HeaderMenu) return;
+            var orientation = HeaderPane.IsExpandable() ? 'Vertical' : 'Horizontal';
+            if(orientation !== HeaderMenu.GetOrientation())
+                HeaderMenu.SetOrientation(orientation);
+        }
+        var collection = ASPxClientControl.GetControlCollection();
+        collection.ControlsInitialized.AddHandler(updateHeaderMenuOrientation);
+        collection.BrowserWindowResized.AddHandler(updateHeaderMenuOrientation);
+    </script>
+
+    @Html.DevExpress().Panel(settings => {
+        settings.Name = "MainPane";
+        settings.ControlStyle.CssClass = "mainContentPane";
+        settings.SetContent(RenderBody().ToHtmlString());
+    }).GetHtml()
+
+
+</body>
+</html>
