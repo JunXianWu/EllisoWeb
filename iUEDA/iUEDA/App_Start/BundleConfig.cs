@@ -15,12 +15,15 @@ namespace iUEDA
                       "~/Scripts/popper.min.js",
                       "~/Scripts/bootstrap.min.js",
                       "~/Scripts/plugins.js",
-                      "~/Scripts/active.js"
+                      "~/Scripts/active.js",
+                      "~/Scripts/jquery-ui.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/style.css",
-                      "~/Content/responsive.css"));
+                      "~/Content/responsive.css",
+                      "~/Content/jquery-ui.css"
+                      ));
         }
     }
 }

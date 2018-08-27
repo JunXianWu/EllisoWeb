@@ -210,6 +210,7 @@
     <Content Include="Content\animate.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\jquery-ui.css" />
     <Content Include="Content\magnific-popup.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\responsive.css" />
@@ -252,8 +253,6 @@
     <Content Include="img\core-img\breadcumb.png" />
     <Content Include="img\core-img\call.png" />
     <Content Include="img\core-img\edit.png" />
-    <Content Include="img\core-img\1favicon.ico" />
-    <Content Include="img\core-img\favicon.ico" />
     <Content Include="img\core-img\gamepad.png" />
     <Content Include="img\core-img\like.png" />
     <Content Include="img\core-img\logo.png" />
@@ -267,6 +266,7 @@
     <Content Include="img\core-img\trophy.png" />
     <Content Include="img\core-img\video-camera.png" />
     <Content Include="img\core-img\work-progress.png" />
+    <Content Include="img\core-img\iueds.ico" />
     <Content Include="img\portfolio-img\1.jpg" />
     <Content Include="img\portfolio-img\10.jpg" />
     <Content Include="img\portfolio-img\11.jpg" />
@@ -282,10 +282,18 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="img\umc\breadcumb.png" />
+    <Content Include="img\umc\iueds.ico" />
+    <Content Include="img\umc\logo.png" />
+    <Content Include="img\umc\search-icon.png" />
+    <Content Include="img\umc\wafer1.png" />
+    <Content Include="img\umc\welcome-bg.png" />
+    <Content Include="img\umc\yield.png" />
     <Content Include="Scripts\active.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.2.4.js" />
     <Content Include="Scripts\jquery-2.2.4.min.js" />
+    <Content Include="Scripts\jquery-ui.js" />
     <Content Include="Scripts\map-active.js" />
     <Content Include="Scripts\plugins.js" />
     <Content Include="Scripts\popper.min.js" />
@@ -324,7 +332,8 @@
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>img\core-img\favicon.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
