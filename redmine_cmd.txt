@@ -1,0 +1,8 @@
+gem install redmine-installer
+gem install bundler
+bundle install --without development test rmagick
+bundle exec rake generate_secret_token
+set RAILS_ENV=production
+bundle exec rake db:migrate
+bundle exec rake redmine:load_default_data
+rails server webrick -e production -p3000
