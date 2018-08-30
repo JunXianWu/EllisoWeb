@@ -27,32 +27,59 @@
                     <h2>Yield Curve Predict</h2>
                     <form action="#">
                         <div class="row">
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-control" id="Product" placeholder="Product">
+                            <div class="col-12 col-md-6 mb-30">
+                                <label for="end">Product</label>
+                                <select data-placeholder="Choose a Product..." class="chosen-select form-control" multiple>
+                                    <option value=""></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                </select>
                             </div>
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-control" id="Layer" placeholder="Layer">
+                            <div class="col-12 col-md-6 mb-30">
+                                <label>Layer</label>
+                                <select data-placeholder="Choose a Layer..." class="chosen-select form-control" multiple>
+                                    <option value=""></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                </select>
                             </div>
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-control" id="Lot" placeholder="Lot">
+                            <div class="col-12 col-md-6 mb-30">
+                                <label>Lot</label>
+                                <select data-placeholder="Choose a Lot..." class="chosen-select form-control" multiple>
+                                    <option value=""></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                </select>
                             </div>
-                            <div class="col-12 col-md-6">
-                                <input type="text" class="form-control" id="Wafer" placeholder="Wafer">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="start">Start</label>
-                                <input type="text" id="datepicker1">
-                            </div>
-                            <div class="col-12 col-md-6">
-                                <label for="end">End</label>
-                                <input type="text" id="datepicker2">
-                            </div>
-                            @*<div class="col-12">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject">
+                            <div class="col-12 col-md-6 mb-30">
+                                <label>Wafer</label>
+                                <select data-placeholder="Choose a Wafer..." class="chosen-select form-control" multiple>
+                                    <option value=""></option>
+                                    <option value="United States">United States</option>
+                                    <option value="United Kingdom">United Kingdom</option>
+                                    <option value="Afghanistan">Afghanistan</option>
+                                </select>
                             </div>
                             <div class="col-12">
-                                <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Message"></textarea>
+                                <label>Duration</label>
+                            </div>
+                            <div class="col-12">
+                                <input class="date-control" placeholder="Start" style="width:100%" type="text" id="datepicker1" data-validation="date" data-validation-format="yyyy/mm/dd">                               
+                            </div>
+                            <div class="col-12">
+                                <input class="date-control" placeholder="End" style="width:100%" type="text" id="datepicker2" data-validation="date" data-validation-format="yyyy/mm/dd">
+                            </div>
+
+                            @*<div class="col-12">
+                                <input class="date-control" placeholder="Start" style="width:100%" type="text" id="datepicker1" data-rule-date="true" data-msg-date="The field NullableDateTime must be a date.">
+                            </div>
+                            <div class="col-12">
+                                <input class="date-control" placeholder="End" style="width:100%" type="text" id="datepicker2" data-rule-date="true" data-msg-date="The field NullableDateTime must be a date.">
                             </div>*@
+
                             <button class="btn mosh-btn mt-50" type="submit">Submit</button>
                         </div>
                     </form>

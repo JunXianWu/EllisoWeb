@@ -1,0 +1,20 @@
+﻿.date-control {
+    font-size: 16px;
+    color: #cbcddc;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #ebebeb;
+    border-radius: 0;
+    padding: 15px;
+    width: 100%;
+}
+
+.ui-datepicker {
+   background: #cbcddc;
+   border: 1px solid #555;
+   color: #EEE;
+ }
+
+.ui-datepicker-trigger { color: red; }

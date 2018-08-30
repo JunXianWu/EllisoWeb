@@ -195,13 +195,12 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/scripts")
-
-    <script>
-      $( function() {
-          $("input[id^=datepicker]").datepicker({ dateFormat: 'yy/mm/dd' });
-      } );
-    </script>
-
-
+    @*<SCRIPT>
+        $("form").validate({
+            submitHandler: function (form) {
+                alert("This is a valid form!");
+            }
+        });
+    </SCRIPT>*@
 </body>
 </html>

@@ -16,13 +16,22 @@ namespace iUEDA
                       "~/Scripts/bootstrap.min.js",
                       "~/Scripts/plugins.js",
                       "~/Scripts/active.js",
-                      "~/Scripts/jquery-ui.js"
+                      "~/Scripts/jquery-ui.js",
+                      "~/Scripts/chosen.jquery.min.js",
+                      "~/Scripts/prism.js",
+                      "~/Scripts/init.js",
+                      "~/Scripts/jquery.form-validator.min.js",
+                      //"~/Scripts/jquery.validate.js",
+                      "~/Scripts/custom.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/style.css",
                       "~/Content/responsive.css",
-                      "~/Content/jquery-ui.css"
+                      "~/Content/jquery-ui.css",
+                      "~/Content/chosen.min.css",
+                      "~/Content/prism.css",
+                      "~/Content/custom.css"
                       ));
         }
     }

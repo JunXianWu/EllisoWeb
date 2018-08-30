@@ -1256,6 +1256,17 @@ span.accor-open {
     color: #abadbe;
 }
 
+.subscribe-newsletter-content form > select {
+    width: 60%;
+    height: 55px;
+    border-radius: 70px;
+    border: none;
+    padding: 0 30px;
+    font-style: italic;
+    font-size: 14px;
+    color: #abadbe;
+}
+
 .subscribe-newsletter-content form > button {
     width: 150px;
     height: 55px;
@@ -1566,6 +1577,16 @@ span.accor-open {
     border-bottom: 2px solid #e6e7f4;
 }
 
+.blog-post-search-widget form > select {
+    width: 100%;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-radius: 0;
+    border-right: none;
+    border-bottom: 2px solid #e6e7f4;
+}
+
 .blog-post-search-widget form > button {
     position: absolute;
     right: 0;
@@ -1638,7 +1659,7 @@ span.accor-open {
 
 .contact-form-area .form-control {
     font-size: 12px;
-    color: #cbcddc;
+    color: #000000;
     background-color: transparent;
     border-top: none;
     border-left: none;
