@@ -1,0 +1,228 @@
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	background: rgb(238, 238, 238);
+}
+.overflow {
+	overflow: auto; position: relative;
+}
+ul.tree {
+	font: 12px/normal Arial, Helvetica, sans-serif; color: rgb(0, 0, 0); margin-bottom: 250px; display: block; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li {
+	margin: 20px; text-align: center; vertical-align: top; display: inline-block;
+}
+ul.tree li.tnone {
+	display: none;
+}
+ul.tree ul.tshow {
+	display: block !important;
+}
+ul.tree li > div {
+	background: rgb(39, 169, 227); padding: 7px 10px; color: rgb(255, 255, 255); font-weight: bold; text-decoration: none; display: inline-block; position: relative; z-index: 2; min-width: 40px;
+}
+ul.tree li > div span {
+	margin: 0px 2px; display: inline-block;
+}
+ul.tree li > div.zindex {
+	z-index: inherit;
+}
+ul.tree li form {
+	background: rgb(218, 150, 40); padding: 10px; text-align: left; color: rgb(255, 255, 255); margin-top: 15px; display: block; position: absolute; z-index: 4;
+}
+ul.tree li form input[type=checkbox] {
+	
+}
+ul.tree li form img.close {
+	padding: 2px; border-radius: 10px; float: right; cursor: pointer; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+ul.tree li input[type=text] {
+	background: rgb(255, 255, 204); font: 12px/normal Arial, Helvetica, sans-serif; margin: 5px 0px; padding: 4px; border: currentColor; border-image: none; width: 150px; color: rgb(0, 0, 0); display: block; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li input[type=password] {
+	background: rgb(255, 255, 204); font: 12px/normal Arial, Helvetica, sans-serif; margin: 5px 0px; padding: 4px; border: currentColor; border-image: none; width: 150px; color: rgb(0, 0, 0); display: block; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li select {
+	background: rgb(255, 255, 204); font: 12px/normal Arial, Helvetica, sans-serif; margin: 5px 0px; padding: 4px; border: currentColor; border-image: none; width: 150px; color: rgb(0, 0, 0); display: block; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li textarea {
+	background: rgb(255, 255, 204); font: 12px/normal Arial, Helvetica, sans-serif; margin: 5px 0px; padding: 4px; border: currentColor; border-image: none; width: 150px; height: 35px; color: rgb(0, 0, 0); display: block; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li textarea.error {
+	background: rgb(216, 74, 56);
+}
+ul.tree li textarea:focus {
+	background: rgb(255, 255, 204);
+}
+ul.tree li .submit {
+	background: rgb(77, 144, 254); font: bold 11px/normal Arial, Helvetica, sans-serif; padding: 5px 15px; border: currentColor; border-image: none; text-align: center; color: rgb(255, 255, 255); margin-top: 3px; display: block; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li .edit {
+	background: rgb(77, 144, 254); font: bold 11px/normal Arial, Helvetica, sans-serif; padding: 5px 15px; border: currentColor; border-image: none; text-align: center; color: rgb(255, 255, 255); margin-top: 3px; display: block; cursor: pointer; font-size-adjust: none; font-stretch: normal;
+}
+ul.tree li .submit:hover {
+	background: rgb(138, 158, 245);
+}
+ul.tree li .edit:hover {
+	background: rgb(138, 158, 245);
+}
+ul.tree li div.current {
+	background: rgb(40, 183, 121);
+}
+ul.tree li div.children {
+	background: rgb(255, 184, 72);
+}
+ul.tree li div.parent {
+	background: rgb(133, 43, 153);
+}
+ul.tree li span.vertical {
+	background: rgb(187, 187, 187); display: inline-block; position: absolute; z-index: 1;
+}
+ul.tree li span.horizontal {
+	background: rgb(187, 187, 187); display: inline-block; position: absolute; z-index: 1;
+}
+ul.tree li span.vertical {
+	width: 1px;
+}
+ul.tree li span.horizontal {
+	height: 1px;
+}
+ul.tree li b.thide {
+	background: url("../images/hide.png") no-repeat; left: -17px; width: 11px; height: 12px; bottom: 0px; position: absolute; cursor: pointer;
+}
+ul.tree li b.thide.tshow {
+	background: url("../images/show.png") no-repeat;
+}
+ul.tree li b.thide.tnone {
+	display: none;
+}
+ul.tree li span.add_action {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; display: none; position: absolute; cursor: pointer; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+ul.tree li span.edit_action {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; display: none; position: absolute; cursor: pointer; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+ul.tree li span.highlight {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; display: none; position: absolute; cursor: pointer; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+ul.tree li span.delete_action {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; display: none; position: absolute; cursor: pointer; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+ul.tree li span.add_action {
+	left: -5px; top: -5px; background-image: url("../images/add.png");
+}
+ul.tree li span.edit_action {
+	left: -5px; bottom: -5px; background-image: url("../images/edit.png");
+}
+ul.tree li span.highlight {
+	right: -5px; bottom: -5px; background-image: url("../images/highlight.png");
+}
+ul.tree li span.delete_action {
+	top: -5px; right: -5px; background-image: url("../images/close.png");
+}
+img.back_btn {
+	left: 15px; top: 15px; position: fixed; z-index: 3; cursor: pointer;
+}
+img.load {
+	position: absolute;
+}
+div.drag_error {
+	font: 14px/normal Arial, Helvetica, sans-serif; padding: 4px 10px; top: 10px; right: 10px; color: rgb(255, 255, 255); position: absolute; z-index: 999; font-size-adjust: none; font-stretch: normal;
+}
+div.delete_msg {
+	font: 14px/normal Arial, Helvetica, sans-serif; padding: 4px 10px; top: 10px; right: 10px; color: rgb(255, 255, 255); position: absolute; z-index: 999; font-size-adjust: none; font-stretch: normal;
+}
+div.edit_msg {
+	font: 14px/normal Arial, Helvetica, sans-serif; padding: 4px 10px; top: 10px; right: 10px; color: rgb(255, 255, 255); position: absolute; z-index: 999; font-size-adjust: none; font-stretch: normal;
+}
+div.add_msg {
+	font: 14px/normal Arial, Helvetica, sans-serif; padding: 4px 10px; top: 10px; right: 10px; color: rgb(255, 255, 255); position: absolute; z-index: 999; font-size-adjust: none; font-stretch: normal;
+}
+div.drop_msg {
+	font: 14px/normal Arial, Helvetica, sans-serif; padding: 4px 10px; top: 10px; right: 10px; color: rgb(255, 255, 255); position: absolute; z-index: 999; font-size-adjust: none; font-stretch: normal;
+}
+div.drag_error {
+	background: rgb(180, 22, 22);
+}
+div.delete_msg {
+	background: rgb(180, 22, 22);
+}
+div.edit_msg {
+	background: rgb(23, 167, 105);
+}
+div.add_msg {
+	background: rgb(39, 169, 227);
+}
+div.drop_msg {
+	background: rgb(133, 43, 153);
+}
+.accordion-left {
+	width: 49%; margin-bottom: 20px; margin-left: 0.96%; float: left;
+}
+.accordion-right {
+	width: 49%; margin-right: 0.97%; margin-bottom: 20px; float: right;
+}
+.accordion-header {
+	background-position: 95%; padding: 5px 10px; color: rgb(255, 255, 255); font-family: "Cabin", sans-serif; font-size: 16px; font-weight: 700; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; cursor: pointer; background-image: url("../images/plus.png"); background-repeat: no-repeat; background-color: rgb(23, 167, 105);
+}
+.accordion-header.active {
+	background-image: url("../images/minus.png");
+}
+.accordion-content {
+	padding: 5px 10px; color: rgb(255, 255, 255); overflow: auto; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: 400; border-bottom-color: rgb(238, 238, 238); border-bottom-width: 1px; border-bottom-style: solid; display: none; max-height: 300px; background-color: rgb(34, 149, 201);
+}
+.accordion-content p {
+	margin: 10px 0px;
+}
+.accordion-content p a {
+	color: rgb(255, 255, 0); font-weight: bold; text-decoration: none;
+}
+.accordion-content p a:hover {
+	color: rgb(216, 216, 216);
+}
+.accordion-content ul {
+	line-height: 18px; margin-left: 25px;
+}
+.accordion-content textarea {
+	background: rgb(255, 255, 255); padding: 5px; border: currentColor; border-image: none; width: 90%; height: 150px; color: rgb(0, 0, 0); font-family: Arial, Helvetica, sans-serif; font-size: 11px;
+}
+.other_ul {
+	list-style: none; overflow: auto; font-family: Arial, Helvetica, sans-serif; font-size: 13px; font-weight: bold; margin-bottom: 1px; margin-left: 0.96%; display: block;
+}
+.other_ul li {
+	color: rgb(255, 255, 255); margin-right: 1px; float: left; display: inline-block;
+}
+.other_ul li b {
+	background: rgb(255, 255, 255); padding: 0px 5px; border: 1px solid rgb(133, 43, 153); border-image: none; height: 22px; float: left; display: block;
+}
+.other_ul li strong {
+	background: rgb(133, 43, 153); padding: 0px 5px; border: 1px solid rgb(133, 43, 153); border-image: none; height: 22px; line-height: 22px; float: left; display: block;
+}
+.other_ul span.add_action {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; margin-top: 4px; display: block; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.other_ul span.edit_action {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; margin-top: 4px; display: block; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.other_ul span.highlight {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; margin-top: 4px; display: block; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.other_ul span.delete_action {
+	background-position: center; padding: 2px; border-radius: 10px; width: 10px; height: 10px; margin-top: 4px; display: block; background-repeat: no-repeat; background-color: rgb(224, 34, 34); -moz-border-radius: 10px; -webkit-border-radius: 10px;
+}
+.other_ul span.add_action {
+	background-image: url("../images/add.png");
+}
+.other_ul span.edit_action {
+	background-image: url("../images/edit.png");
+}
+.other_ul span.highlight {
+	background-image: url("../images/highlight.png");
+}
+.other_ul span.delete_action {
+	background-image: url("../images/close.png");
+}
+hr {
+	background: rgb(88, 183, 225); margin: 15px 0px; border: currentColor; border-image: none;
+}
