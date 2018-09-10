@@ -12,7 +12,7 @@
         };
 
 var getcode = document.URL;
-var getvalue = getcode.indexOf("treeview");
+var getvalue = getcode.indexOf("mindtree2");
 
 return this.each(function() {
             if (options)

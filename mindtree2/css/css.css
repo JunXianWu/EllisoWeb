@@ -1,0 +1,18 @@
+@font-face {
+	font-family: Cabin;
+	src: local("Cabin"), local("Cabin-Regular"), url(http://fonts.gstatic.com/s/cabin/v12/u-4x0qWljRw-Pd8w__s.woff) format("woff");
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: Cabin;
+	src: local("Cabin SemiBold"), local("Cabin-SemiBold"), url(http://fonts.gstatic.com/s/cabin/v12/u-480qWljRw-Pdfv2-hluy8.woff) format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: Cabin;
+	src: local("Cabin Bold"), local("Cabin-Bold"), url(http://fonts.gstatic.com/s/cabin/v12/u-480qWljRw-PdeL2uhluy8.woff) format("woff");
+	font-weight: 700;
+	font-style: normal;
+}
