@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-22T00:46:18.792Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="rDiQhaaMc-QYaf7zOF3V" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-22T00:54:19.460Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="mc2s0XyiqfEmgNSAIE1i" version="14.2.9" type="github">
   <diagram name="Page-1" id="e3a06f82-3646-2815-327d-82caf3d4e204">
     <mxGraphModel dx="616.5" dy="1323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="0bYWMJNHTc5Zgg--HzBg-6" value="Client App" style="swimlane;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;startSize=60;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="1773" y="20" width="260" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="0bYWMJNHTc5Zgg--HzBg-29" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Mobile&lt;br&gt;(iOS/ Andriod)&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/kitchen-appliances-computers-and-electronics/32/Appliances-06-128.png" vertex="1" parent="0bYWMJNHTc5Zgg--HzBg-6">
+        <mxCell id="0bYWMJNHTc5Zgg--HzBg-29" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Mobile app&lt;br&gt;(iOS/ Andriod)&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/kitchen-appliances-computers-and-electronics/32/Appliances-06-128.png" vertex="1" parent="0bYWMJNHTc5Zgg--HzBg-6">
           <mxGeometry x="66" y="106" width="128" height="128" as="geometry" />
         </mxCell>
         <mxCell id="0bYWMJNHTc5Zgg--HzBg-30" value="&lt;font style=&quot;font-size: 17px&quot;&gt;Server side rendering&lt;br&gt;(SSR)&lt;br&gt;&lt;/font&gt;" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/google_chrome-128.png" vertex="1" parent="0bYWMJNHTc5Zgg--HzBg-6">
