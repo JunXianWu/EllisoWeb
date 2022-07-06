@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T05:34:12.074Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="-3sIcqEKvdJTj0bmP0ym" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T05:44:49.088Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="Ov7FjGxJsZaTD1SUQh0W" version="20.0.4" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#CCCCCC" math="0" shadow="0">
       <root>
@@ -222,8 +222,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eigWfeTK6xkrmMEjkW5_-2145" value="Technical support" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="eigWfeTK6xkrmMEjkW5_-2145" value="Other support" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;strokeColor=none;strokeWidth=2;fillColor=#FFFFFF;fontFamily=Helvetica;fontSize=14;fontColor=#FFB366;opacity=75;verticalAlign=top;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="872.5" y="530" width="140" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="eigWfeTK6xkrmMEjkW5_-2148" value="&lt;b&gt;協助PM&amp;amp;Outsoucer&lt;/b&gt;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1.需求評估合理性&lt;/span&gt;&lt;/div&gt;2.技術實現可能性&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3.溝通共識協調&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;labelBackgroundColor=none;fontSize=12;fontColor=#000033;align=left;" vertex="1" parent="1">
+          <mxGeometry x="887" y="564" width="113" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
